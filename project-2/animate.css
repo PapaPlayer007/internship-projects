@@ -1,0 +1,133 @@
+.abs{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.a {
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translateY(-50%);
+    animation: a 30s linear infinite;
+}
+
+@keyframes a {
+    
+    0% {
+        left: 110%;
+      transform: translateY(-50%) rotateY(0);
+    }
+    48%{
+        left: -60%;
+        transform: translateY(-50%) rotateY(0);
+    }
+    52%{
+        left: -60%;
+        transform: translateY(-50%) rotateY(180deg);
+    }
+    100% {
+        left: 120%;
+        transform: translateY(-50%) rotateY(180deg);
+    }
+}
+
+
+.b , .c , .d, .e{
+    z-index: 4;
+    overflow: hidden;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.b{
+    animation: b 35s linear infinite;
+}
+
+@keyframes b {
+    0%{
+        top: 0%;
+        left: 30%;
+        transform: translateZ(-50%) rotateZ(0);
+    }
+
+    50%{
+        top: 50%;
+        left: 40%;
+        transform: translateZ(-50%) rotateZ(80deg);
+    }
+    100%{
+        top: 100%;
+        left: 50%;
+        transform: translateZ(-50%) rotateZ(120deg);
+    }
+}
+
+.c{
+    animation: c 35s linear infinite;
+}
+
+@keyframes c {
+    0%{
+        top: 0%;
+        left: 80%;
+        transform: translateZ(-50%) rotateZ(0);
+    }
+
+    50%{
+        top: 50%;
+        left: 90%;
+        transform: translateZ(-50%) rotateZ(80deg);
+    }
+    100%{
+        top: 100%;
+        left: 100%;
+        transform: translateZ(-50%) rotateZ(120deg);
+    }
+}
+
+.d{
+    animation: d 35s linear infinite;
+}
+
+@keyframes d{
+    0%{
+        top: 40%;
+        left: 0%;
+        transform: translateZ(-50%) rotateZ(0);
+    }
+
+    100%{
+        top: 80%;
+        left: 50%;
+        transform: translateZ(-50%) rotateZ(120deg);
+    }
+}
+
+.e{
+    animation: e 35s linear infinite;
+}
+
+@keyframes e{
+    0%{
+        top: 40%;
+        left: 0%;
+        transform: translateZ(-50%) rotateZ(0);
+    }
+
+    50%{
+        top: 60%;
+        left: 90%;
+        transform: translateZ(-50%) rotateZ(80deg);
+    }
+
+    100%{
+        top: 80%;
+        left: 30%;
+        transform: translateZ(-50%) rotateZ(120deg);
+    }
+}
