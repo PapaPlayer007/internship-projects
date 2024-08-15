@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffin Service - Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="review.html">Reviews</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <section class="menu-page">
+        <h1>Our Menu</h1>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="https://th.bing.com/th/id/OIP.CddXDKNH4yDxmSW0qgV8LgHaFC?rs=1&pid=ImgDetMain" alt="Chicken Biryani">
+                <h3>Chicken Biryani</h3>
+                <p>₹ 200</p>
+                <button onclick="addToOrder('Chicken Biryani', 200)">Add to Order</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://th.bing.com/th/id/OIP.SlHeo5Ifm51nXH0Cc01YHAHaHa?rs=1&pid=ImgDetMain" alt="Dal Tadka">
+                <h3>Dal Tadka</h3>
+                <p>₹ 200</p>
+                <button onclick="addToOrder('Dal Tadka', 200)">Add to Order</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://th.bing.com/th/id/OIP.dEB9YlLzj1oz1GYzRNsMRwHaFj?rs=1&pid=ImgDetMain" alt="Paneer Butter Masala">
+                <h3>Paneer Butter Masala</h3>
+                <p>₹ 200</p>
+                <button onclick="addToOrder('Paneer Butter Masala', 200)">Add to Order</button>
+            </div>
+            <!-- Add more menu items here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tiffin Service. All rights reserved.</p>
+        <nav>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

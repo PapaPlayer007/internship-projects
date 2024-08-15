@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('https://c.ndtvimg.com/2021-04/6snn8ap8_tiffin-services_625x300_29_April_21.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* Featured Dishes */
+.featured-dishes {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-dishes .dish {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+.featured-dishes .dish img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.featured-dishes .dish h3 {
+    margin: 10px 0;
+}
+
+.featured-dishes .dish p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Specific Page Styles */
+.menu-page, .order-page, .review-page, .profile-page {
+    padding: 50px 20px;
+}
+
+.menu-list, .order-summary, .order-details, .order-history, .review-list, .review-form, .profile-info {
+    margin-bottom: 30px;
+}
+
+.menu-item, .review-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+}
+
+.menu-item img, .review-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.testimonials p {
+    margin: 15px 0;
+    font-style: italic;
+}

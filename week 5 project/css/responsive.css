@@ -1,0 +1,23 @@
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .featured-dishes .dish,
+    .menu-item,
+    .review-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .menu-page, .order-page, .review-page, .profile-page {
+        padding: 20px 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .order-summary, .order-details, .order-history, .profile-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
